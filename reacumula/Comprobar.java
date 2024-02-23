@@ -10,7 +10,7 @@
 package reacumula;
 
 public class Comprobar {
-                                        // Comprueba entero positivo o cero ------------
+                                        // Comprueba entero positivo o cero
     public boolean esEnteroPositivo(String tt) {
 
         boolean correcto = false;

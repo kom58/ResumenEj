@@ -83,9 +83,9 @@ public class Aplicacion {
         String numStr = tflVeces.getText();         // Lee el numero de veces
 
         Comprobar cpb = new Comprobar();            // Comprobar valor Veces
-        boolean esent = cpb.esEnteroPositivo(numStr);
+        boolean esEntPos = cpb.esEnteroPositivo(numStr);
 
-        if (esent) {
+        if (esEntPos) {
             int n = Integer.parseInt((numStr));         // Lo convierte en int
             for (int i = 1; i <= n; i = i + 1) {        // Añade tt  n veces
                 tarAcumulador.append("\n" + tt);
